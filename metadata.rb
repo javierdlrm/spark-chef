@@ -174,3 +174,11 @@ attribute "hadoop_spark/hudi_spark_bundle_url",
 attribute "hadoop_spark/hudi_util_bundle_url",
           :description => "URL for hudi utiljar",
           :type => "string"
+
+attribute "hadoop_spark/hsfs/utils/py_download_url",
+          :description => "URL from where to download hsfs_utils.py",
+          :type => "string"
+
+attribute "hadoop_spark/hsfs/utils/java_download_url",
+          :description => "URL from where to download hsfs-utils.jar",
+          :type => "string"
